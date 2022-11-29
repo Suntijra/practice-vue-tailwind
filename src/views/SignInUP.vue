@@ -1,7 +1,7 @@
 /* eslint-disable */
-<template>
+<template class = "font-['']">
   <div class="bg-black h-full border text-center fixed w-full">
-    <div class="h-[40vh] flex flex-col justify-center">
+    <div class="h-[30vh] flex flex-col justify-center">
       <div class="animate-opacity" :class="{ hidden: !obj.slide }">
         <h1 class="text-[#E9A700] text-5xl">Welcome</h1>
         <h1 class="text-[#E9A700] mt-5">moondoge dogecoin wallet apps</h1>
@@ -41,11 +41,11 @@ setTimeout(() => {
 
 <style scoped>
 .slide-to-up {
-  height: 60vh;
+  height: 70vh;
   transition: height 0.75s;
 }
 .inset-shadow-botton {
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@100;300;400;600&display=swap');
 </style>>
